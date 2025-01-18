@@ -52,17 +52,17 @@ const tierColorsB = [ // Alternate Tier Colors
 let tierColors = tierColorsB; // Default Tier Colors
 
 const backgrounds = {
-	'Mortal Kombat 1': '/images/backgrounds/mortal-kombat-1.jpg',
-	'Story A': '/images/backgrounds/story-a.jpg',
-	'Story B': '/images/backgrounds/story-b.jpg',
-	'Fire': '/images/backgrounds/fire.jpg',
-	'Night': '/images/backgrounds/night.jpg'
+	'Mortal Kombat 1': './images/backgrounds/mortal-kombat-1.jpg',
+	'Story A': './images/backgrounds/story-a.jpg',
+	'Story B': './images/backgrounds/story-b.jpg',
+	'Fire': './images/backgrounds/fire.jpg',
+	'Night': './images/backgrounds/night.jpg'
 };
 
 const fallbackBackgroundColor = 'rgb(16, 16, 16)'; // Fallback Background Color if Background Image Fails to Load
 
-const dirCharacters = '/images/characters/portraits/';
-const dirAssists = '/images/kameos/portraits/';
+const dirCharacters = './images/characters/portraits/';
+const dirAssists = './images/kameos/portraits/';
 const tierItemExt = 'jpg';
 const tierAssistExt = 'png';
 const characterClass = 'character';
